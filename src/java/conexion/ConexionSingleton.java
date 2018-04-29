@@ -39,6 +39,7 @@ public class ConexionSingleton {
     public boolean crearConexion() {
         try {
 
+            //sldpsdl
             ConexionSingleton.urlBaseDatos = "jdbc:mysql://localhost:3303/bdsicate";
             ConexionSingleton.usuario = "root";
             ConexionSingleton.password = "Temporal345";
